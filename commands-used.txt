@@ -1,0 +1,11 @@
+ssh -i linux-key.pem ubuntu@13.233.254.213
+
+chmod 400 linux-key.pem
+
+ssh -i linux-key.pem ubuntu@10.0.2.188
+
+hostname
+ip addr
+pwd
+ls -la
+sudo apt update
